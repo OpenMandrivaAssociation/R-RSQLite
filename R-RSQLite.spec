@@ -9,12 +9,9 @@ Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-methods R-DBI 
-Requires:         R-methods R-DBI 
-Requires:         R-RUnit 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-DBI
-BuildRequires:    R-methods R-DBI 
-BuildRequires:    R-RUnit 
+Requires:         R-methods R-DBI R-RUnit
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-DBI R-RUnit
 BuildRequires:    sqlite3-devel
 
 %description
