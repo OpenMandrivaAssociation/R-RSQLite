@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.11.1
+Version:          0.11.2
 Release:          1
 Summary:          SQLite interface for R
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RSQLite_0.11.2.tar.gz
 Requires:         R-methods R-DBI R-RUnit
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-methods R-DBI R-RUnit
