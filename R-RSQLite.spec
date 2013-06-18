@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.11.2
-Release:          1
+Release:          2
 Summary:          SQLite interface for R
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
