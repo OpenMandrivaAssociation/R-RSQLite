@@ -7,7 +7,7 @@ Release:          1
 Summary:          SQLite interface for R
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/RSQLite_0.11.4.tar.gz
 Requires:         R-methods R-DBI R-RUnit
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
